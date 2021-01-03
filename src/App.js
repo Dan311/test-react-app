@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HooksExamples from './test-components/hooks-examples';
 
 function App() {
   function handleClick(event) {
@@ -26,6 +27,7 @@ function App() {
           Learn React
         </a>
       <button onClick={handleClick}>Click Button</button>
+      <HooksExamples/>
       </header>
     </div>
   );
